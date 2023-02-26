@@ -10,6 +10,7 @@ namespace SystemInfo_v2
         {
             Program.Islemler();
             //ListWmiClasses.List();
+            //deneme2
         }
 
 

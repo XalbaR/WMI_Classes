@@ -6,11 +6,11 @@ namespace SystemInfo_v2
 {
     public static class Process
     {
-        public static void Bilgiler(string win32Query, int secilen)
+        public static void Bilgiler(string win32Query, int secilen) 
         {
             var query = new ObjectQuery(win32Query);
             var searcher = new ManagementObjectSearcher(query);
-
+            //git hub deneme değişikliği2
             var namesValuesDict = new Dictionary<string, object>();
 
             var stopwatch = new Stopwatch();
