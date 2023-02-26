@@ -59,11 +59,11 @@ namespace SystemInfo_v2
                     Console.WriteLine($"{kvp.Key,-40}: {kvp.Value}");
                 }
             }
-            finisQuest();
+            finishQuest();
            
         }
          
-        static void finisQuest ()
+        static void finishQuest ()
         {
             Console.Write("\nAna listeye dönmek için 'A' tuşuna basın, programdan çıkmak için 'Ç' tuşuna basın: ");
             var input = Console.ReadLine().ToLower();
