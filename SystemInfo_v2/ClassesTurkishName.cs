@@ -9,6 +9,9 @@ namespace SystemInfo_v2
 
             {"Win32_1394Controller", "IEEE 1394 (FireWire) Denetleyicisi"},
             {"Win32_Fan", "Fan"},
+            {"Win32_PerfFormattedData_PerfOS_Memory","Bellek Kullanımı" },
+            {"Win32_PerfFormattedData_PerfDisk_LogicalDisk","Disk Kullanımı" },
+            {"Win32_PerfRawData_Tcpip_NetworkInterface","Ağ Trafiği" },
             {"Win32_Product", "Yazılım Ürünleri hakkında genel bilgi" },
             {"Win32_HeatPipe", "Isı Borusu"},
             {"Win32_Refrigeration", "Soğutma"},
